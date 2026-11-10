@@ -1,22 +1,22 @@
 
-# Financial Crime Data Analysis | Fraud Detection & AML Transaction Monitoring
+# Fraud & AML Risk Analysis | Excel Portfolio Project
 
-An Excel-based portfolio project focused on financial transaction analysis, suspicious activity identification, customer risk assessment, KYC indicators, AML alert outcomes, and case management.
+An Excel-based financial crime analytics project focused on suspicious transaction identification, customer risk assessment, KYC indicators, AML alert analysis, and case management.
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes financial transaction data to identify suspicious activity patterns, evaluate customer risk indicators, examine AML alert outcomes, and understand case-management results.
+This project analyzes financial transaction data to identify suspicious activity patterns, assess customer risk indicators, examine AML alert outcomes, and understand case-management results.
 
-The analysis was performed entirely using Microsoft Excel, applying data cleaning, data validation, PivotTables, calculated measures, and data visualization techniques.
+The analysis was performed entirely using Microsoft Excel, applying data cleaning, data validation, PivotTables, calculated metrics, and data visualization techniques.
 
 ## 🎯 Project Objectives
 
-- Analyze financial transaction patterns and suspicious activity.
+- Analyze financial transaction patterns and suspicious activity indicators.
 - Identify transaction channels with higher suspicious activity rates.
-- Assess customer risk scores and KYC classifications.
-- Examine AML alert outcomes and detection rules.
+- Evaluate customer risk scores and KYC classifications.
+- Examine AML alert outcomes and detection-rule categories.
 - Analyze case dispositions and SAR filing outcomes.
 - Translate analytical findings into meaningful financial crime insights.
 
@@ -36,27 +36,24 @@ The analysis was performed entirely using Microsoft Excel, applying data cleanin
 - **Tables Used:** 6
 - **Primary Tool:** Microsoft Excel
 
-## 🛠️ Tools & Techniques
+## 🛠️ Tools & Methodology
 
 **Microsoft Excel**
 
 - Data Cleaning and Validation
 - Duplicate and Missing Value Checks
 - Excel PivotTables
+- Excel Formulas and Calculated Metrics
 - Conditional Formatting
-- Calculated Fields and Measures
-- Transaction Analysis
-- Customer Risk Segmentation
+- Transaction and Customer Segmentation
 - Data Visualization
 - Analytical Reporting
 
-## 📊 Analysis Performed
+## 📊 Analysis & Key Findings
 
 ### 1. Transaction Analysis
 
 Analyzed 42,203 financial transactions to examine transaction volumes, amounts, suspicious indicators, and overall activity patterns.
-
-**Key Findings:**
 
 | Metric | Result |
 |---|---:|
@@ -64,9 +61,11 @@ Analyzed 42,203 financial transactions to examine transaction volumes, amounts, 
 | Suspicious Transactions | 726 |
 | Non-Suspicious Transactions | 41,477 |
 | Suspicious Transaction Rate | 1.72% |
-| Total Transaction Amount | $30,126,065.15 |
+| Total Transaction Amount | $30,126,065.20 |
 | Suspicious Transaction Amount | $5,001,168.54 |
 | Suspicious Amount Share | 16.60% |
+
+**Key Insight:** Although suspicious transactions represented only 1.72% of total transactions, they accounted for 16.60% of the total transaction value.
 
 ### 2. Transaction Channel Analysis
 
@@ -81,11 +80,11 @@ Examined suspicious transaction rates across different transaction channels.
 | Card | 0.00% |
 | Mobile | 0.00% |
 
-**Key Insight:** Branch transactions recorded the highest suspicious transaction rate among the analyzed channels.
+**Key Insight:** Branch transactions recorded the highest observed suspicious transaction rate (23.15%) among the analyzed channels, indicating a concentration of suspicious indicators in branch-based activity.
 
 ### 3. Customer Risk Assessment
 
-Analyzed customer risk scores and suspicious activity across different risk-score ranges.
+Analyzed customer risk scores and suspicious activity indicators across different risk-score ranges.
 
 | Risk Score | Customers | Suspicious Customers | Suspicious Rate |
 |---|---:|---:|---:|
@@ -95,11 +94,11 @@ Analyzed customer risk scores and suspicious activity across different risk-scor
 | 61–80 | 7 | 1 | 14.29% |
 | **Total** | **300** | **15** | **5.00%** |
 
-**Key Insight:** Higher risk-score segments showed higher suspicious customer rates in this dataset. The highest risk band contained only seven customers, so the result should be interpreted cautiously.
+**Key Insight:** Suspicious customer rates increased across the analyzed risk-score bands. However, the highest risk band contained only seven customers, so the result should be interpreted cautiously.
 
 ### 4. KYC Risk Analysis
 
-Examined customer KYC ratings and their relationship with suspicious activity indicators.
+Examined customer KYC classifications and their relationship with suspicious activity indicators.
 
 | KYC Rating | Customers | Suspicious Customers | Suspicious Rate |
 |---|---:|---:|---:|
@@ -108,11 +107,13 @@ Examined customer KYC ratings and their relationship with suspicious activity in
 | Low | 202 | 6 | 2.97% |
 | **Total** | **300** | **15** | **5.00%** |
 
-**Key Insight:** Suspicious activity indicators were observed across different KYC risk categories, highlighting the importance of ongoing transaction monitoring.
+**Key Insight:** Suspicious activity indicators were observed across different KYC classifications. Medium-rated customers accounted for the highest number of suspicious customers, highlighting the importance of ongoing transaction monitoring.
 
 ### 5. AML Alert Outcome Analysis
 
 Reviewed 84 AML alerts to examine alert outcomes and detection-rule categories.
+
+**Alert Outcomes**
 
 | Alert Outcome | Count |
 |---|---:|
@@ -120,24 +121,27 @@ Reviewed 84 AML alerts to examine alert outcomes and detection-rule categories.
 | False Positive | 34 |
 | **Total Alerts** | **84** |
 
-**Detection Rules Analyzed:**
+**Detection Rule Analysis**
 
-- Profile Deviation
-- Rapid In/Out
-- High-Risk Geography
-- Cash Near Threshold
+| Detection Rule | Alerts |
+|---|---:|
+| Profile Deviation | 59 |
+| Rapid In/Out | 12 |
+| High-Risk Geography | 10 |
+| Cash Near Threshold | 3 |
+| **Total** | **84** |
 
-**Key Insight:** Profile deviation generated the highest alert volume among the analyzed detection rules.
+**Key Insight:** Profile Deviation generated the highest alert volume, accounting for 59 of the 84 alerts. The dataset recorded 50 true-positive outcomes, representing approximately 59.52% of all reviewed alerts.
 
 ### 6. Case Management & SAR Analysis
 
 Examined case outcomes, associated alerts, and Suspicious Activity Report (SAR) filing patterns.
 
-| Case Outcome | Number of Cases | Associated Alerts |
-|---|---:|---:|
-| SAR Filed | 19 | 42 |
-| Closed No Action | 19 | 42 |
-| **Total** | **38** | **84** |
+| Case Outcome | Number of Cases |
+|---|---:|
+| SAR Filed | 19 |
+| Closed No Action | 19 |
+| **Total Cases** | **38** |
 
 **Key Findings:**
 
@@ -146,20 +150,21 @@ Examined case outcomes, associated alerts, and Suspicious Activity Report (SAR) 
 - 19 cases were closed with no action.
 - 84 alerts were associated with the reviewed cases.
 
+**Key Insight:** Case outcomes were evenly distributed between SAR filing and closure with no action, providing an overview of the investigation and case-disposition patterns in the dataset.
+
 ## 📈 Key Project Insights
 
-- 1.72% of analyzed transactions carried a suspicious indicator.
-- Suspicious transactions represented 16.60% of the total transaction amount.
-- Branch transactions recorded the highest suspicious transaction rate at 23.15%.
-- Customer suspicious activity rates increased across the analyzed risk-score bands.
-- Medium KYC-rated customers accounted for the highest number of suspicious customers.
-- 50 out of 84 alerts were classified as true positives in the dataset.
+- Suspicious transactions represented 1.72% of total transaction volume but accounted for 16.60% of total transaction value.
+- Branch transactions recorded the highest suspicious activity rate at 23.15%.
+- Suspicious customer rates increased across the analyzed risk-score bands.
+- Profile Deviation was the most frequent AML alert detection rule.
+- 50 of 84 alerts were classified as true positives in the dataset.
 - Case outcomes were evenly distributed between SAR filing and closure with no action.
 
 ## 📁 Repository Structure
 
 ```text
-Financial-crime-analysis/
+Fraud-AML-Risk-Analysis/
 │
 ├── README.md
 │
@@ -178,14 +183,15 @@ Financial-crime-analysis/
 
 ## 💡 Skills Demonstrated
 
-**Technical Skills:**
+**Technical Skills**
 - Microsoft Excel
 - Data Cleaning and Validation
 - PivotTable Analysis
+- Excel Formulas and Calculated Metrics
 - Data Visualization
 - Analytical Reporting
 
-**Financial Crime Domain Knowledge:**
+**Financial Crime Domain Knowledge**
 - Fraud Analysis
 - Financial Transaction Monitoring
 - Customer Risk Assessment
@@ -204,7 +210,7 @@ Financial-crime-analysis/
 
 ## 👩‍💻 About Me
 
-**Aspiring Data Analyst**
+**Aspiring Data Analyst | Financial Crime & Fraud Analytics**
 
 Interested in applying data analytics to financial services, fraud analysis, and financial crime risk operations.
 
