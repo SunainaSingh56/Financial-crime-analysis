@@ -152,6 +152,22 @@ Examined case outcomes, associated alerts, and Suspicious Activity Report (SAR) 
 
 **Key Insight:** Case outcomes were evenly distributed between SAR filing and closure with no action, providing an overview of the investigation and case-disposition patterns in the dataset.
 
+
+## 📸 Project Visualizations
+
+### 1. Transaction Analysis
+![Transaction Analysis](Visualizations/Transaction_Analysis.png)
+
+### 2. Customer Risk Analysis
+![Customer Risk Analysis](Visualizations/Customer_Risk_Analysis.png)
+
+### 3. AML Alert Analysis
+![AML Alert Analysis](Visualizations/Alert_Analysis.png)
+
+### 4. Case Management Analysis
+![Case Management Analysis](Visualizations/Case_Analysis.png)
+
+
 ## 📈 Key Project Insights
 
 - Suspicious transactions represented 1.72% of total transaction volume but accounted for 16.60% of total transaction value.
