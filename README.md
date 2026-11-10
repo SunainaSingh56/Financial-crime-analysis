@@ -153,19 +153,20 @@ Examined case outcomes, associated alerts, and Suspicious Activity Report (SAR) 
 **Key Insight:** Case outcomes were evenly distributed between SAR filing and closure with no action, providing an overview of the investigation and case-disposition patterns in the dataset.
 
 
+
 ## 📸 Project Visualizations
 
 ### 1. Transaction Analysis
-![Transaction Analysis](Visualizations/Transaction_Analysis.png)
+![Transaction Analysis](Visualizations/Transaction%20Analysis.png)
 
 ### 2. Customer Risk Analysis
-![Customer Risk Analysis](Visualizations/Customer_Risk_Analysis.png)
+![Customer Risk Analysis](Visualizations/Customer%20Risk%20Analysis.png)
 
 ### 3. AML Alert Analysis
-![AML Alert Analysis](Visualizations/Alert_Analysis.png)
+![AML Alert Analysis](Visualizations/AML%20Alert%20Analysis.png)
 
 ### 4. Case Management Analysis
-![Case Management Analysis](Visualizations/Case_Analysis.png)
+![Case Management Analysis](Visualizations/Case%20Management%20Analysis.png)
 
 
 ## 📈 Key Project Insights
